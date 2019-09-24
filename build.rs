@@ -1,5 +1,4 @@
 use cmake::{self, Config};
-use std::env;
 use std::path::PathBuf;
 
 fn main() {
@@ -26,7 +25,7 @@ fn main() {
         .expect("Unable to generate bindings");
 
     // Write the bindings to src folder to make rls autocomplete work.
-    let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
+    let out_path = PathBuf::from("src");
     bindings
         .write_to_file(out_path.join("bindings.rs"))
         .expect("Couldn't write bindings!");

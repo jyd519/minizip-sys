@@ -1,6 +1,6 @@
 [package]
 name = "minizip-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["JiYongdong <jiyongdong@ata.net.cn>"]
 license = "MIT"
 edition = "2018"
