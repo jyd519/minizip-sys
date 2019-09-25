@@ -1,11 +1,10 @@
 [package]
 name = "minizip-sys"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["JiYongdong <jiyongdong@ata.net.cn>"]
 license = "MIT"
 edition = "2018"
 build = "build.rs"
-links = "minizip"
 description = "Rust FFI bindings for minizip"
 repository = "https://github.com/jyd519/minizip-sys"
 
